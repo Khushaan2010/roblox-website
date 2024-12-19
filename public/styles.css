@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121212;
+    padding: 6px 20px; /* Reduced padding to make the navbar thinner */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 40px; /* Reduced height of navbar */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center; /* Center the nav links */
+    flex-grow: 1; /* Take up available space */
+}
+
+.nav-links a {
+    margin: 0 15px; /* Normal spacing between links */
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; /* Slightly larger font size */
+/*    font-weight: bold; /* Made the text bold */
+}
+
+.signup-btn {
+    padding: 8px 18px; /* Reduced padding to make the button smaller */
+    font-size: 14px; /* Smaller font size */
+    background-color: #1aa366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: -30px; /* Shifted Sign Up button further left */
+    font-weight: bold; /* Made the text bold for better visibility */
+    margin-left: 10px; /* Added margin for slight gap */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.login-box {
+    background-color: #282828;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #121212;
+    color: white;
+}
+
+form .login-btn {
+    width: 100%;
+    padding: 15px; /* Increased padding for thicker button */
+    margin: 10px 0;
+    background-color: #1aa366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    font-weight: bold; /* Made the text bold */
+    cursor: pointer;
+}
+
+.forgot-link {
+    display: block;
+    color: #aaa;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.divider {
+    height: 1px;
+    background-color: #444;
+    margin: 20px 0;
+}
+
+.secondary-btn {
+    width: 100%;
+    padding: 15px; /* Increased padding for thicker button */
+    margin: 10px 0;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Slightly larger font size */
+    font-weight: bold; /* Made the text bold */
+    cursor: pointer;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.signup-link a {
+    color: #1aa366;
+    text-decoration: none;
+}
